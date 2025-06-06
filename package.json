@@ -4,6 +4,9 @@
   "description": " Bdc !",
   "main": "index.js",
   "scripts": {
+  "build": "npx expo export -p web"
+}
+
     "start": "pm2 start index.js --deep-monitoring --attach --name KHAN-MD",
     "stop": "pm2 stop KHAN-MD",
     "restart": "pm2 restart KHAN-MD"
